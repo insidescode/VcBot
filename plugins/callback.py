@@ -134,12 +134,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         except:
             pass
     elif query.data=="help":
-        await query.edit_message_text("Hii!! Just give me a audio file to play music. Check-out /help to know more. \n\n      [© Hêllẞø† Mûsiç ™](t.me/the_hellbot)",
+        await query.edit_message_text("Hii!! Just give me a audio file to play music. Check-out /help to know more. \n\n      [© Zer0Byte 2.0 ™](t.me/Zer0ByteOfficial)",
         link_preview=False,
         reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Close 🔐", callback_data="close"),
+                        InlineKeyboardButton("Close 🗑", callback_data="close"),
                     ],
                 ]
             )
