@@ -2,9 +2,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram import Client, filters
 
 
-REPO = "**🗂️ Repo :** [VcBot Repo](https://github.com/The-HellBot/VcBot)\n\n🌟 **Github :** [The-HellBot](https://github.com/The-HellBot) \n\n**📍   [Group](https://t.me/hellbot_chat)  &  [Channel](https://t.me/its_hellbot)   📍**"
-HOME_TEXT = "💖 **Hi [{}](tg://user?id={})**,\n\nI'm **Hêll Music Bot** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop!\n\n**😉 Happy Streaming 😉**"
-HELP = """**Join @The_HellBot and @Its_Fuckin_Hell to get more help!!
+REPO = "**Zer0Byte 2.0 :** [Updates](https://t.me/Zer0ByteOfficial)\n\n🌟 **Owner :** [Afgan Jalebi](https://t.me/deeprajk) \n\n**📍  [Group](https://t.me/Zer0ByteSupport)  &  [Off-Topic](https://t.me/deeprajk)   📍**"
+HOME_TEXT = "👋 **Hi [{}](tg://user?id={})**,\n\nI'm **Zer0Byte 2.0** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop!\n\n**Thanks For Using**"
+HELP = """**Join @Zer0ByteOfficial and @Zer0ByteSupport to get more help!!
 
 🏷️ **Users Commands**:
 \u2022 `/play`  -  Reply to an audio to play or add to queue.
@@ -35,15 +35,15 @@ HELP = """**Join @The_HellBot and @Its_Fuckin_Hell to get more help!!
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('📺 CHANNEL', url='https://t.me/The_HellBot'),
-        InlineKeyboardButton('🏘️ Group', url='https://t.me/Its_Fuckin_Hell'),
+        InlineKeyboardButton('🔔 Updates', url='https://t.me/The_HellBot'),
+        InlineKeyboardButton('👥 Support', url='https://t.me/Its_Fuckin_Hell'),
     ],
     [
-        InlineKeyboardButton('📑 GitHub', url='https://github.com/The-HellBot'),
-        InlineKeyboardButton('📜 VcBot Repo', url='https://github.com/The-HellBot/VcBot'),
+        InlineKeyboardButton('🌟 Owner', url='https://github.com/The-HellBot'),
+        InlineKeyboardButton('✨ Off-Topic', url='https://github.com/The-HellBot/VcBot'),
     ],
     [
-        InlineKeyboardButton('⚙️ HELP ⚙️', callback_data='help'),
+        InlineKeyboardButton('⚙️ HELP', callback_data='help'),
         
     ]
     ]
