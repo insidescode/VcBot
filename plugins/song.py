@@ -42,7 +42,7 @@ def a(client, message):
             #     m.edit("Exceeded 30mins cap")
             #     return
 
-            performer = f"[†hê Hêllẞø†]" 
+            performer = f"[ZER0BYTE™]" 
             thumb_name = f'thumb{message.message_id}.jpg'
             thumb = requests.get(thumbnail, allow_redirects=True)
             open(thumb_name, 'wb').write(thumb.content)
@@ -72,7 +72,7 @@ def a(client, message):
         m.delete()
         message.delete()
     except Exception as e:
-        m.edit('**An Error Occured. Please Report This To @Its_Fuckin_Hell !!**')
+        m.edit('**An Error Occured. Please Report This To @Zer0ByteSupport !!**')
         print(e)
     try:
         os.remove(audio_file)
