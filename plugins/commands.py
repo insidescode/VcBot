@@ -35,12 +35,12 @@ HELP = """**Join @Zer0ByteOfficial and @Zer0ByteSupport to get more help!!
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('🔔 Updates', url='https://t.me/The_HellBot'),
-        InlineKeyboardButton('👥 Support', url='https://t.me/Its_Fuckin_Hell'),
+        InlineKeyboardButton('🔔 Updates', url='https://t.me/Zer0ByteOfficial'),
+        InlineKeyboardButton('👥 Support', url='https://t.me/Zer0ByteSupport'),
     ],
     [
-        InlineKeyboardButton('🌟 Owner', url='https://github.com/The-HellBot'),
-        InlineKeyboardButton('✨ Off-Topic', url='https://github.com/The-HellBot/VcBot'),
+        InlineKeyboardButton('🌟 Owner', url='t.me/deeprajk'),
+        InlineKeyboardButton('✨ Off-Topic', url='https://t.me/Friends_Chatting_Grp'),
     ],
     [
         InlineKeyboardButton('⚙️ HELP', callback_data='help'),
